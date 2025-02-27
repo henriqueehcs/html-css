@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right,#D7D0C2, #D99789);
+    font-family: font-family: Tahoma, Verdana, sans-serif;
+}
+main{
+   background-color: white;
+   width: 600px;
+   padding: 10px;
+   margin: auto;
+}
+p{
+   
+}
+       h1, h2{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+       }

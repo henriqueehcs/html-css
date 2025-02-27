@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{ /*Box-level */
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border-width: 10px ;
+            border-style: solid;
+            border-color: darkslategray;
+            /* shorthand border: 10px solid darkslategray; */
+
+            padding: 10px; 
+            margin: 20px 20px 40px 20px;
+                     
+        /*margin: auto; centraliza a caixa no meio ! 
+        margin e padding, pode colocar os parametros no sentido horario, ou apenas dois parametros, top e right ( bottom e left terão os mesmo valores), ou apenas um para os quatro */
+            outline-width: 5px;   
+            outline-style: dashed;
+            outline-color: salmon ;/* shorthand outline: 10px dashed salmon; */
+         }
+        a{ /* Inline-Level */
+            border-style: solid;
+            border-width: 5px;
+            border-color: red;
+            padding: 10px 10px 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa Box-Level</h1>
+    <p>Parágrafos tambem sao exemplos de box-level, mas os <a href="#"> links sao exemplos de inline-level</a> Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

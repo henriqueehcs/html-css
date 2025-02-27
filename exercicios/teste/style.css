@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+.primeiro{
+    color: rgb(42, 42, 173);
+    background-color: white;
+}
+.segundo{
+    background-color: white;
+    color: rgba(158, 2, 2, 0.87);
+}
+.terceiro{
+    background-color: white;
+    color: rgb(44, 131, 44);
+}
+.quarto{
+    background-color: white;
+    color: rgba(228, 157, 27, 0.877);
+}
+.quinto{
+    background-color: white;
+    color: red;
+}
+.sexto{
+    background-color: white;
+    color: rgb(218, 142, 2);
+}
+.setimo{
+    background-color: white;
+    color: rgba(1, 1, 70, 0.842);
+}
+nav>a{
+    color: white;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 21px;    
+    text-decoration: none;               
+}
+nav>a:hover{
+    text-decoration: underline;
+    transition-duration: .5;
+    color: black;
+    background-color: rgba(23, 104, 23, 0.322);
+}
+.cabecalho {
+    background-color: rgba(23, 104, 23, 0.774);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'inherit' ;
+    margin-left:-8px;
+    margin-right: -8px;
+    margin-top: -10px;                               
+}
+.cabecalho >p{
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+       
+.cabecalho2 .cartola {
+    font-size: 1.5em;
+    color: orange;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+.cabecalho2 .texto{
+    text-align: justify;
+    text-align: left;
+    border-bottom: solid rgb(226, 226, 226);  
+                  
+}
+div .texto{
+padding-bottom: 10px;
+margin-bottom: 30px;
+}
+
+.rodape{
+    background-color: white;
+    padding: 12px;
+    margin-right: 10px;
+    margin: auto;
+    margin-bottom: 0px;
+}
+h4{
+    color:rgb(23, 104, 23);
+    font-size: 1.2em;
+    margin-top: -20px;
+    margin-left: 0px;
+}
+article aside{
+    border: solid rgba(0, 0, 0, 0.11);
+    text-align: center;
+    margin: 5px;
+}
