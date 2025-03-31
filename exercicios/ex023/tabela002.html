@@ -11,24 +11,38 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
             padding: 8px;
         }
-        thead, tfoot {
-            background-color: gray;
-            color: white;
-        }
+        
         td.num {
             text-align: right;
 
+        }
+        tbody > tr:nth-child(odd) { /* 2n-1*/
+            background-color: white;
+        }
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgray;
         }
         caption {
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
             background-color: lightgray;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        } 
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
         }
     </style>
 </head>
@@ -95,7 +109,59 @@
             <tr>
                 <td>Santa Catarina</td>
                 <td class="num">8 058 441</td>
-            </tr>    
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 973 914</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 322 691</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 219 679</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 824 665</td>
+            </tr> 
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 229 915</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 539 029</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 233 656</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 664 306</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">8 058 441</td>
+            </tr>     
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 233 656</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 664 306</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">8 058 441</td>
+            </tr>     
             <tr>
 
             </tr>        
@@ -107,6 +173,12 @@
             </tr>
         </tfoot>
     </table>
+
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus tenetur enim laboriosam necessitatibus accusamus excepturi repellat in tempore autem. Dignissimos iste aliquid suscipit asperiores obcaecati aut et, qui nobis animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem laboriosam est assumenda temporibus. Ab labore sapiente distinctio earum esse nulla id minima enim. Consequatur delectus similique cum, officiis laudantium ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque fugiat aut recusandae quas dolores iusto possimus sit placeat beatae. Assumenda sequi ipsa asperiores? Dolores cum corporis omnis repellat alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tempora repudiandae sapiente fugiat id recusandae at itaque, distinctio nam dolores magni amet porro quo suscipit provident cupiditate reiciendis nisi minus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus tenetur enim laboriosam necessitatibus accusamus excepturi repellat in tempore autem. Dignissimos iste aliquid suscipit asperiores obcaecati aut et, qui nobis animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem laboriosam est assumenda temporibus. Ab labore sapiente distinctio earum esse nulla id minima enim. Consequatur delectus similique cum, officiis laudantium ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque fugiat aut recusandae quas dolores iusto possimus sit placeat beatae. Assumenda sequi ipsa asperiores? Dolores cum corporis omnis repellat alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tempora repudiandae sapiente fugiat id recusandae at itaque, distinctio nam dolores magni amet porro quo suscipit provident cupiditate reiciendis nisi minus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus tenetur enim laboriosam necessitatibus accusamus excepturi repellat in tempore autem. Dignissimos iste aliquid suscipit asperiores obcaecati aut et, qui nobis animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem laboriosam est assumenda temporibus. Ab labore sapiente distinctio earum esse nulla id minima enim. Consequatur delectus similique cum, officiis laudantium ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque fugiat aut recusandae quas dolores iusto possimus sit placeat beatae. Assumenda sequi ipsa asperiores? Dolores cum corporis omnis repellat alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tempora repudiandae sapiente fugiat id recusandae at itaque, distinctio nam dolores magni amet porro quo suscipit provident cupiditate reiciendis nisi minus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus tenetur enim laboriosam necessitatibus accusamus excepturi repellat in tempore autem. Dignissimos iste aliquid suscipit asperiores obcaecati aut et, qui nobis animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem laboriosam est assumenda temporibus. Ab labore sapiente distinctio earum esse nulla id minima enim. Consequatur delectus similique cum, officiis laudantium ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque fugiat aut recusandae quas dolores iusto possimus sit placeat beatae. Assumenda sequi ipsa asperiores? Dolores cum corporis omnis repellat alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tempora repudiandae sapiente fugiat id recusandae at itaque, distinctio nam dolores magni amet porro quo suscipit provident cupiditate reiciendis nisi minus.</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus tenetur enim laboriosam necessitatibus accusamus excepturi repellat in tempore autem. Dignissimos iste aliquid suscipit asperiores obcaecati aut et, qui nobis animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem laboriosam est assumenda temporibus. Ab labore sapiente distinctio earum esse nulla id minima enim. Consequatur delectus similique cum, officiis laudantium ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque fugiat aut recusandae quas dolores iusto possimus sit placeat beatae. Assumenda sequi ipsa asperiores? Dolores cum corporis omnis repellat alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tempora repudiandae sapiente fugiat id recusandae at itaque, distinctio nam dolores magni amet porro quo suscipit provident cupiditate reiciendis nisi minus.</p>
     
 </body>
 </html>
