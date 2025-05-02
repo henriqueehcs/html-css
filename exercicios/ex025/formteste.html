@@ -13,11 +13,23 @@
     </style>
 </head>
 <body>
-    <h1>Testando formularios da aula 02 </h1>
+    <h1>Preencha o formulario</h1>
 
-    <form action="cadastro.php" autocomplete="off" " method="post">
-        <p><label for="idata">Data de nascimento:</label> <input type="date" name="data" id="idata"></p>
-        <p>Sexo: <input type="checkbox" name="sexo" id="fem"> <label for="fem">Feminino</label> <input type="checkbox" name="sexo" id="masc">    <label for="masc">Masculino</label></p>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <!---<p><label for="idata">Data de nascimento:</label> <input type="date" name="data" id="idata"></p>
+        <p>Sexo: <input type="checkbox" name="sexo" id="fem"> <label for="fem">Feminino</label> <input type="checkbox" name="sexo" id="masc">    <label for="masc">Masculino</label></p> <!-->
+        <p>
+            <label for="iuser">Usuario: </label>
+            <input type="text" name="user" id="iuser" required size="10" minlength="8" maxlength="15" placeholder="nome do usuario" autocomplete="username"> 
+        </p>
+
+    <p>
+        <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha" size="10" minlength="6" maxlength="10" required autocomplete="current-password" placeholder="maximo 10 digitos">
+    </p>
+    <p>
+        <input type="submit" value="enviar">
+    </p>
 
 
     </form>
