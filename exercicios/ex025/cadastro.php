@@ -1,2 +1,2 @@
-Os dados foram enviados!
-Aprenda PHP para saber o que fazer com eles. 
+Criando tabelas ! 
+Isso não é PHP !!!!!!
